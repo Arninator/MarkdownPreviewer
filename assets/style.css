@@ -4,7 +4,7 @@
     padding: 0%;
 }
 #preview {
-    background-color: darkseagreen;
+    background-color: seagreen;
     margin: 3vh auto;
     height: 50vh;
     width: 66vw;
@@ -20,5 +20,6 @@
     max-height: 38vh;
     margin: 0%;
     background-color: aliceblue;
-    padding: 1%;
+    padding: 1vh;
+    resize: none;
 }
