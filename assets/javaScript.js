@@ -9,14 +9,16 @@ class previewText extends React.Component {
             JSX
         );
     }
-
 }
 this.handleClick = this.handleClick.bind(this);
 
-ReactDOM.render(JSX, document.getElementById("root"));
 
 function handleClick() {
-    $("#preview") = new previewText();
+    $("#preview") = <previewText />;
 }
 
 $("#editor").onChange(handleClick());
+
+
+
+ReactDOM.render(JSX, document.getElementById("root"));
