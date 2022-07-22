@@ -24,6 +24,5 @@
 }
 #editor:focus {
     border-color: darkmagenta;
-    border-style: double;
     outline: none;
 }
