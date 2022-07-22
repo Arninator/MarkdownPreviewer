@@ -1,10 +1,10 @@
 * {
-    background-color: lightgrey;
+    background-color: beige;
     margin: 0%;
     padding: 0%;
 }
 #preview {
-    background-color: seagreen;
+    background-color: gainsboro;
     margin: 3vh auto;
     height: 50vh;
     width: 66vw;
@@ -14,12 +14,11 @@
     margin: 3vh 10vw;
 }
 #editor {
-    max-width: 80vw;
-    min-width: 80vw;
-    min-height: 38vh;
-    max-height: 38vh;
-    margin: 0%;
+    width: 80vw;
+    height: 38vh;
     background-color: aliceblue;
+    border: 3px solid darkcyan;
+    border-radius: 10px;
     padding: 1vh;
     resize: none;
 }
