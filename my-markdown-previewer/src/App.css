@@ -1,0 +1,38 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-color: darkslategrey;
+}
+#preview {
+  background-color: cornsilk;
+  box-shadow: 1px 2px 2px 1px salmon;
+  margin: 3vh auto;
+  padding: 3%;
+  max-height: 38vh;
+  max-width: 66vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  overflow: auto;
+  text-align: left;
+}
+#editor-div {
+  display: block;
+  margin: 3vh 10vw;
+}
+#editor {
+  width: 80vw;
+  height: 38vh;
+  background-color: aliceblue;
+  border: 3px solid darkcyan;
+  border-radius: 10px;
+  padding: 1vh;
+  resize: none;
+}
+#editor:focus {
+  border-color: magenta;
+  outline: none;
+}
