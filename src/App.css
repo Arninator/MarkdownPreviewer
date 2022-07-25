@@ -3,11 +3,11 @@
   padding: 0%;
 }
 body {
-  background-color: darkolivegreen;
+  background-color: gainsboro;
 }
 #preview {
   background-color: aliceblue;
-  box-shadow: 0px 0px 5px 5px red;
+  box-shadow: 0px 0px 0px 2px rgb(189, 112, 112);
   margin: 3vh auto;
   padding: 3%;
   max-height: 38vh;
@@ -35,7 +35,8 @@ body {
   padding: 1vh;
   resize: none;
 }
+
 #editor:focus {
-  border-color: magenta;
+  border-color: rgb(199, 0, 199);
   outline: none;
 }
